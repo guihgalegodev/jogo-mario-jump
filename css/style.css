@@ -43,7 +43,7 @@ h1 {
 .clouds {
   width: 550px;
   position: absolute;
-  animation: clouds-animation 20s infinite linear;
+  animation: clouds-animation 15s infinite linear;
   margin-top: 100px;
 }
 
@@ -102,7 +102,13 @@ h1 {
   }
 }
 
-@media (max-width: 1220px) {
+@media (max-height: 620px) {
+  .clouds {
+    margin-top: 0px;
+    width: 350px;
+  }
+}
+@media (max-width: 1200px) {
   .pipe {
     width: 40px;
   }

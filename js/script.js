@@ -18,3 +18,4 @@ function marioPular(e) {
 
 window.addEventListener("keydown", marioPular);
 window.addEventListener("touchstart", marioPular);
+console.log(window.innerHeight);
