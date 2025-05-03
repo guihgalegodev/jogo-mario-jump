@@ -37,7 +37,6 @@ h1 {
   bottom: 100px;
   width: 80px;
   animation: pipe-animation 1.5s infinite linear;
-  /* left: 120px; */
   height: 80px;
   z-index: 1;
 }
@@ -53,7 +52,7 @@ h1 {
   width: 150px;
   position: absolute;
   bottom: 100px;
-  left: 5px;
+  left: 0px;
 }
 
 .mario.pular {
@@ -112,7 +111,7 @@ h1 {
   .pipe {
     width: 60px;
     height: 70px;
-    /* left: 108px; */
+    animation: pipe-animation 1.2s infinite linear;
   }
 
   .mario {
@@ -146,7 +145,7 @@ h1 {
   .pipe {
     width: 40px;
     height: 52px;
-    /* left: 82px; */
+    animation: pipe-animation 1s infinite linear;
   }
 
   .mario {
